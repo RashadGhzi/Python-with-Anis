@@ -1,3 +1,3 @@
 
 file = open("hello.html", "a")
-result = file.write("<h>This is a html file.</h>")
+result = file.write("\n<h>This is a html file.</h>")

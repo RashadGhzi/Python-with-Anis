@@ -28,4 +28,5 @@ num(10,20,30,40)"""
 # (xx) arguments
 def item (**details):
     print(details["name"])
+    print(details["age"])
 item(age = 21, name = "Rashad")

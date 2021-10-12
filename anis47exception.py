@@ -1,6 +1,6 @@
 try:
     list = [10,0,20]
-    result = list[0] / list[3]
+    result = list[0] / list[1]
     print(result)
 except ZeroDivisionError:
     print("Can't devided to zero.")

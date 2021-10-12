@@ -13,4 +13,4 @@ for x in text:
         numberofwords = numberofwords + 1
 print(numberofletter)
 print(numberofdigits)
-print(numberofwords)
+print(numberofwords+1)

@@ -2,7 +2,7 @@
 num = list(range(10))
 print(num)
 print(num[2])
-print(num[0:10])
+print(num[0:9])
 print(num[0:10:1])
 print(num[::])
 

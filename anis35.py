@@ -1,4 +1,4 @@
-'''
+"""
 
 ## This is stack data structure.
 stack = ["Anisur Islam", "Pial Uddin", "Manik Hossein"]
@@ -19,13 +19,16 @@ print(stack)
 stack.pop()
 if not stack:
     print("No items left.")
-    '''
+
+"""
+
+
 
 
 ## This is Queue data structure.
 from collections import deque
 queue = deque(["Porimol", "Asif Islam", "Murad"])
-print("Now, The top item is ", queue[1])
+print("Now, The top item is ", queue[0])
 
 queue.popleft()
 print(queue)
@@ -39,3 +42,5 @@ queue.popleft()
 
 if not queue:
     print("No items left.")
+
+
